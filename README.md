@@ -1,6 +1,6 @@
 # React + Vite + ThreeJS + TailWindCSS + Framer Motion
 
-![Alt text](./public/markdown_website_demo.png "a title")
+![Alt text](./public/markdown_website_demo.png "porfolio img demo")
 
 This porfolio takes the above most recent technologies incorporated with reactJS, demenstrating an impressive website using 3D graphics and animation to bring interactive components to life.
 
