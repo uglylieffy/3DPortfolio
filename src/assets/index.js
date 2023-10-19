@@ -8,27 +8,34 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import r from "./tech/r.png";
+import seaborn from "./tech/seaborn.svg";
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import panda from "./tech/panda.png";
+import scikitlearn from "./tech/scikitlearn.png";
+import matplotlib from "./tech/matplotlib.png";
+import matlab from "./tech/matlab.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import powerplannar from "./company/powerplannar.png";
+import khsc from "./company/khsc.jpg";
+import qu from "./company/qu.png";
+import ccic from "./company/ccic.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import vaxxsystem from "./vaxxsystem.avif";
+import smokingpredict from "./smokingpredict.png";
+import mri from "./mri.jpg";
+
+
 
 export {
   logo,
@@ -40,23 +47,28 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
+  mysql,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  r,
+  seaborn,
+  cpp,
+  python,
+  panda,
+  scikitlearn,
+  matplotlib,
+  matlab,
+  powerplannar,
+  khsc,
+  qu,
+  ccic,
+  vaxxsystem,
+  smokingpredict,
+  mri,
 };

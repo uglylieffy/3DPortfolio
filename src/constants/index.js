@@ -4,25 +4,28 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    mysql,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    r,
+    seaborn,
+    cpp,
+    python,
+    panda,
+    scikitlearn,
+    matplotlib,
+    matlab,
+    powerplannar,
+    khsc,
+    qu,
+    ccic,
+    vaxxsystem,
+    smokingpredict,
+    mri,
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +49,15 @@ import {
       icon: web,
     },
     {
-      title: "insert 1",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Analyst",
       icon: backend,
     },
     {
-      title: "insert 2",
+      title: "Genome Analysis",
       icon: creator,
     },
   ];
@@ -69,169 +72,205 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "React JS",
+      icon: reactjs,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "MySQL",
+      icon: mysql,
+    },     
+    {
+      name: "cpp",
+      icon: cpp,
     },
+     {
+      name: "Python",
+      icon: python,
+    },
+        {
+      name: "R",
+      icon: r,
+    },
+     {
+      name: "panda",
+      icon: panda,
+    },
+       {
+      name: "Scikitlearn",
+      icon: scikitlearn,
+    },
+     {
+      name: "MatplotLib",
+      icon: matplotlib,
+    },
+     {
+      name: "Matlab",
+      icon: matlab,
+    },
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer",
+      company_name: "BareBone Dev.",
+      icon: powerplannar,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        `Collaborated with senior developers to design features such as 
+        “searching for assignment” in the applications using the .NET 
+        framework, C#, and ASP.NET.`,
+        `Contributed to the development of backend systems, syncing 
+        between local client and server using Entity Framework and SQL Server.`,
+        `Assisted in documentation efforts on meetings, creating technical 
+        documentation and meeting guides to aid end-users and colleagues 
+        in understanding software functionality and providing updates.`,
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Kingston Health & Science Center",
+      icon: khsc,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Nov 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        `Developed a scalable web-based reporting dashboard using JavaScript, CSS, ReactJS
+         and ChartJS for the Pathology Department at Kingston General Hospital.`,
+        `Utilized Python for data processing, transformation, quality check and 
+        analysis of 2K+ medical data to streamline workflows.`,
+        `Implemented a distributed web architecture, built relational databases with MySQL 
+        with encryption techniques, deployed website to AWS Amplify Hosting, 
+        achieved a remarkable 90% reduction in daily reporting time.`,
+        `Collaborated with data scientiststo create an effective data schema, saving two weeks
+         of project time.`,
+        `Leveraged Power BI and matplotlib to develop 10+ interactive reports, 
+        enabling agile decision-making.`,
+      ],
+    },
+    {
+      title: "Research Assistant",
+      company_name: "Queen's University, Microbiology Department",
+      icon: qu,
+      iconBg: "#383E56",
+      date: "Jan 2023 - May 2023",
+      points: [
+        `Conducted genomic research on the order Rhizobiales, visualizing data results
+         using R (Ggplot2) for 20+ charts and defining metrics for family classification.`,
+        `Utilized R and Linux commands BioInformatic tools for genomic similarity 
+        analysis and phylogenetic tree generation.`,
+        `Collaborated with graduate students and faculty members, aiding in the publication
+         of research findings.`,
+      ],
+    },
+    {
+      title: "Full stack Developer",
+      company_name: "CCIC Laboratory Services",
+      icon: ccic,
+      iconBg: "#E6DEDD",
+      date: "May 2022 - Jan 2023",
+      points: [
+        `Managed SQL database setup, schema design, and query optimization as part of a 
+         Laboratory Information Management System (LIMS), while collaborated with 
+         cross-functional teams to design and develop a dynamic laboratory insights 
+         dashboard using JavaScript and HTML/CSS.`,
+        `Designed and implemented A/B testing to optimize interface interactions, 
+          increased 45% navigation efficiency; reduced 20% user churn by 
+          display high-traffic metrics on the first level page.`,
+        `Built 5+ natural language data pipelines based on 200+ handwritten
+         laboratory reports; improved data extraction for the building of 
+         electronic laboratory notebook (ELN) efficiency by 47%. `,
+        `Conducted code reviews and participated in knowledge-sharing
+         sessions using Jira and Confluence, fostering a culture of collaboration
+          and continuous improvement.`,
+        `Complete data cleaning and headroom analysis on Python (NumPy & Pandas) t
+         argeting on laboratory reports.`,
       ],
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Covid-19 Vaccination Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        `Desktop application designed to facilitate the planning, 
+        tracking, distribution, and management of COVID-19 
+        vaccinations on a large scale. This system plays 
+        a crucial role in coordinating the vaccination 
+        efforts during a global pandemic, such as the COVID-19 crisis.`,
       tags: [
         {
-          name: "react",
+          name: "Qt",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "C++",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: vaxxsystem,
+      source_code_link: "https://github.com/uglylieffy/InfoManagementSystem.git",
     },
     {
-      name: "Job IT",
+      name: "Smoking Status Analysis with Bodily Data",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        `this project is to classify people into three categories 
+        (never smoked, did smoke but quit, still a smoker) based 
+        on body composition data`,
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "TensorFlow",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MS Excel & Seaborn",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: smokingpredict,
+      source_code_link: `https://docs.google.com/presentation/d/e/2PACX-1vT6LG8QluYqd0Wh5EZ3YhfpYHyJBXBjbOdMUSuMvLZMO8Gq3WxPVgnMTCGHVt9Fv8j3JghoST9_F3zl/pub?start=false&loop=false&delayms=3000`,
     },
     {
-      name: "Trip Guide",
+      name: "Weakly Supervised Registration of Prostate MRI Images",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      `Because normal tissue and cancer have modest variances, radiologists'
+       interpretations of prostate MRIs are not always in accord. This problem
+       is solved by image registration, which precisely overlays on MRI 
+       the ground-truth cancer labels. By training deep learning models for 
+       early prostate cancer diagnosis, radiologists may better interpret 
+       MRIs by using cancer labels obtained from image registration.`,
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Scikit-learn",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: " Seaborn & Matplotlib ",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mri,
+      source_code_link: "https://github.com/uglylieffy/ProstateCancerPrediction.git/",
     },
   ];
   

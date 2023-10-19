@@ -100,7 +100,11 @@ const Works = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        insert here intro about past project
+        When being a backend developer that specializing in data analysis with a strong focus on 
+        healthcare applications, my passion falls in addressing some of the most pressing challenges
+         in healthcare. From early visual disease detection to personalized treatment 
+         recommendations, I wish to improve patient care and healthcare outcomes with cutting-edge 
+         AI techniques.
       </motion.p>
 
       {/* project card where data is read in from index.js in ./constant */}

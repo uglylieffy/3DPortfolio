@@ -52,7 +52,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        insert here
+        As a Full Stack Developer with a strong emphasis on data analysis, 
+        I have had the privilege of contributing to cutting-edge projects 
+        that bridge the gap between software development and data-driven 
+        insights. Over the course of my career, I've honed my skills and
+        expertise in both front-end and back-end development while 
+        leveraging data analytics and AI to inform strategic decision-making. 
+        Below is a snapshot of my work experience:
       </motion.p>
 
       {/* service card where data is read in from index.js in ./constant */}
