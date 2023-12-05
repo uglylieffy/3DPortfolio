@@ -54,10 +54,10 @@ const About = () => {
       >
         As a Full Stack Developer with a strong emphasis on data analysis, 
         I have had the privilege of contributing to cutting-edge projects 
-        that bridge the gap between software development and data-driven 
+        that bridge the gap between intuitively clear and data-driven 
         insights. Over the course of my career, I've honed my skills and
-        expertise in both front-end and back-end development while 
-        leveraging data analytics and AI to inform strategic decision-making. 
+        expertise in front-end development while leveraging data analytics 
+        and AI to inform strategic decision-making. 
         Below is a snapshot of my work experience:
       </motion.p>
 

@@ -49,7 +49,7 @@ import {
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Data Engineer",
       icon: mobile,
     },
     {
@@ -57,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Genome Analysis",
+      title: "Clinical Analyst",
       icon: creator,
     },
   ];
@@ -120,15 +120,13 @@ import {
   
   const experiences = [
     {
-      title: "Software Developer",
+      title: "Data Engineer",
       company_name: "BareBone Dev.",
       icon: powerplannar,
       iconBg: "#383E56",
       date: "May 2023 - Present",
       points: [
-        `Collaborated with senior developers to design features such as 
-        “searching for assignment” in the applications using the .NET 
-        framework, C#, and ASP.NET.`,
+        `Reduced 20% user churn by display high-traffic metrics on the first level page`,
         `Contributed to the development of backend systems, syncing 
         between local client and server using Entity Framework and SQL Server.`,
         `Assisted in documentation efforts on meetings, creating technical 
@@ -137,7 +135,7 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Data Specialist",
       company_name: "Kingston Health & Science Center",
       icon: khsc,
       iconBg: "#E6DEDD",
@@ -152,7 +150,7 @@ import {
         achieved a remarkable 90% reduction in daily reporting time.`,
         `Collaborated with data scientiststo create an effective data schema, saving two weeks
          of project time.`,
-        `Leveraged Power BI and matplotlib to develop 10+ interactive reports, 
+        `Leveraged Power BI to develop 10+ interactive reports, 
         enabling agile decision-making.`,
       ],
     },
@@ -172,7 +170,7 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Database System R&D Intern",
       company_name: "CCIC Laboratory Services",
       icon: ccic,
       iconBg: "#E6DEDD",
